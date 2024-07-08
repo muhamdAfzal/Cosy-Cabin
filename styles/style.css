@@ -268,7 +268,7 @@ nav a {
   font-size: 4.25rem;
   line-height: 5.525rem;
   width: 784px;
-  margin: 0 0 150px 150px;
+  margin: 0 0px 250px 150px;
 }
 
 .cabin-card-box {
@@ -410,6 +410,126 @@ nav a {
   font-family: "Switzer-Variable";
   font-weight: 400;
   font-size: 0.9rem;
+}
+
+/* Testimonial Section */
+
+.section-testimonial {
+  width: 90rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1b3936;
+  background-color: #f9f9f9;
+}
+
+.testimonial-text-box {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 5rem 6rem 10rem 6rem;
+}
+
+.testimonial-text-box h2 {
+  text-transform: capitalize;
+  font-family: "Boska-Variable";
+  font-weight: 400;
+  font-size: 4.25rem;
+  line-height: 5.525rem;
+  margin-bottom: 0;
+}
+
+.testimonial-text-box p {
+  font-family: "Switzer-Variable";
+  font-weight: 400;
+  font-size: 1.124rem;
+}
+
+.testimonial-card-box {
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+}
+
+.testiomnial-single-card {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.testimonial-card-img {
+  width: 378px;
+  height: 477px;
+  overflow: hidden;
+}
+
+.testimonial-card-img img {
+  position: absolute;
+  left: 1.7vw;
+  margin-inline: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-card-text {
+  position: absolute;
+  top: 25.5vh;
+  left: -2vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 400px;
+  height: 152px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.testimonial-card-text img {
+  width: 20px;
+  margin-bottom: 5px;
+}
+
+.testimonial-card-text h4 {
+  font-family: "Switzer-Variable";
+  font-weight: 400;
+  font-size: 1.45rem;
+  line-height: 1.8rem;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.testimonial-card-text p {
+  font-family: "Switzer-Variable";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.testimonial-button-box {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.testimonial-button-left {
+  background-color: #1b3936;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.testimonial-button-right {
+  background-color: #75ff69;
+  padding: 1rem;
+  border-radius: 50%;
 }
 
 /* Footer Section */
