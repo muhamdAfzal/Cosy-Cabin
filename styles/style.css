@@ -1,93 +1,109 @@
-/* Icon */
-/*
-position: absolute;
-width: 82px;
-height: 82px;
-left: 1273px;
-top: 519px;
-
-*/
 @import url("switzer.css");
 @import url("boska.css");
 
-/* * {
-  max-width: 1440px;
-} */
-
-/* @font-face {
-  font-family: "";
-  src: url("");
-} */
-
-/*
 .top {
-  position: static;
+  width: 90rem;
+  margin-inline: auto;
   background-color: #1b3936;
-  display: flex;
-  flex-direction: column;
 }
 
-header {
+a {
+  color: inherit;
+  font-family: "Switzer-Variable";
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-nav {
-  margin-top: auto;
-}
-
-nav a {
+  align-items: center;
   color: #ffffff;
-  font-family: "Switzer Variable", swap;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23.7px;
+  height: 80px;
+  padding-top: 25px;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
-.navOne {
-}
-.navTwo {
-}
-.navTitle {
-}
-*/
-
-/* 2nd Take */
-/*
-.top {
-  background-color: #1b3936;
-}
-*/
-
-/*
-.section-hero {
-  position: relative;
+.navicon {
   display: flex;
+  flex-direction: row;
+  margin-top: 0px;
 }
-.hero-img-box {
-  max-height: 1188px;
-  max-width: 1188px;
-  
+
+.navicon h1 {
+  margin-left: 10px;
+  color: #75ff69;
+  font-family: "Boska-Variable";
+  font-size: 2.8rem;
 }
-.hero-img {
-  position: absolute;
-  margin: 618px;
-  height: 100%;
-  width: 100%;
-  border-radius: 50%;
-}
-.hero-textbox {
+
+/* Hero Section */
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  text-align: center;
+  overflow: hidden;
+  height: 1200px;
 }
 
-.hero-heading-cabin {
-  color: #75ff69;
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-style: dashed;
+  border-color: #75ff69;
+  border-radius: 50%;
+  padding: 380px;
 }
-*/
+
+.hero-img-box {
+  overflow: hidden;
+
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+}
+
+.hero-text-box {
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-text-box h1 {
+  font-family: "Boska-Variable";
+  font-size: 16.375rem;
+  font-weight: 400;
+  line-height: 10.12rem;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.span-one {
+  font-family: "Boska-Italic";
+  color: #75ff69;
+  margin-left: 400px;
+}
+
+.span-two {
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+.hero-text-box p {
+  font-family: "Switzer-Variable";
+  font-weight: 400;
+  font-size: 1.1rem;
+  width: 570px;
+  text-align: center;
+  margin-inline: auto;
+}
 
 /* Info Section */
 
