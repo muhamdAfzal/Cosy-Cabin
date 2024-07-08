@@ -26,6 +26,18 @@ a {
   padding-left: 150px;
 }
 
+.navone {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.navtwo {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
 .navicon {
   display: flex;
   flex-direction: row;
