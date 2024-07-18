@@ -1,6 +1,9 @@
 @import url("switzer.css");
 @import url("boska.css");
 
+/* Top with navBar Section */
+/* ________________________ */
+
 .top {
   width: 90rem;
   margin-inline: auto;
@@ -52,6 +55,7 @@ a {
 }
 
 /* Hero Section */
+/* ________________________ */
 
 .section-hero {
   display: flex;
@@ -71,15 +75,19 @@ a {
   border-style: dashed;
   border-color: #75ff69;
   border-radius: 50%;
-  padding: 380px;
+  padding: 280px;
 }
 
 .hero-img-box {
   overflow: hidden;
-
-  width: 550px;
-  height: 550px;
+  width: 700px;
+  height: 700px;
   border-radius: 50%;
+}
+
+.hero-img-box img {
+  height: 100%;
+  transform: translateX(-195px);
 }
 
 .hero-text-box {
@@ -118,6 +126,7 @@ a {
 }
 
 /* Info Section */
+/* ________________________ */
 
 .section-info {
   color: #1b3936;
@@ -188,6 +197,7 @@ a {
 }
 
 /* Forest Image Section */
+/* ________________________ */
 
 .section-forest {
   width: 90rem;
@@ -198,9 +208,11 @@ a {
 
 .forest-img {
   width: 100%;
+  transform: translateY(-660px);
 }
 
 /* About Us Section */
+/* ________________________ */
 
 .section-about-us {
   width: 90rem;
@@ -225,10 +237,18 @@ a {
   right: 150px;
 }
 
-.about-us-img-03 {
+.about-us-img-03-box {
+  position: absolute;
   height: 33rem;
-  top: 1000px;
+  width: 25rem;
+  bottom: 155px;
   left: 100px;
+  overflow: hidden;
+}
+
+.about-us-img-03-box img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .about-us-img-04 {
@@ -280,6 +300,7 @@ a {
 }
 
 /* Unique Room Section */
+/* ________________________ */
 
 .section-unique-room {
   width: 90rem;
@@ -366,6 +387,7 @@ a {
 }
 
 /* Sign Up Section */
+/* ________________________ */
 
 .section-sign-up {
   width: 90rem;
@@ -441,6 +463,7 @@ a {
 }
 
 /* Testimonial Section */
+/* ________________________ */
 
 .section-testimonial {
   width: 90rem;
@@ -492,19 +515,19 @@ a {
   width: 378px;
   height: 477px;
   overflow: hidden;
+  margin-left: 30px;
 }
 
 .testimonial-card-img img {
-  position: absolute;
-  left: 1.7vw;
-  margin-inline: auto;
-  width: 100%;
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .testimonial-card-text {
   position: absolute;
-  top: 25.5vh;
+  /* top: 25.5vh; */
+  bottom: 3vh;
   left: -2vw;
   background-color: #ffffff;
   display: flex;
@@ -561,6 +584,7 @@ a {
 }
 
 /* Footer Section */
+/* ________________________ */
 
 .section-footer {
   width: 66.5rem;
@@ -602,6 +626,8 @@ a {
 }
 
 /* About Section */
+/* ________________________ */
+
 .section-about {
   width: 90rem;
   margin-inline: auto;
@@ -660,6 +686,8 @@ a {
 }
 
 /* Link Section */
+/* ________________________ */
+
 .section-link {
   width: 90rem;
   margin-inline: auto;
